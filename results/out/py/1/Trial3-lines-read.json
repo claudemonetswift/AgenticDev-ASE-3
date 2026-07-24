@@ -1,0 +1,5 @@
+{
+	"lines_read": [
+		{ "examples/pytorch/rgcn/entity_classify.py": ["1-170"] }
+	]
+}

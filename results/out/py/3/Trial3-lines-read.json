@@ -1,0 +1,11 @@
+{
+	"lines_read": [
+
+		{"requests/models.py": ["1-886"] },
+		{"requests/adapters.py": ["1-504"] }, 
+		{"requests/models.py": ["870-886"] },
+		{"requests/cookies.py": ["1-100"] }
+	]
+
+}
+

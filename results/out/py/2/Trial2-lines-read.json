@@ -1,0 +1,6 @@
+{
+	"lines_read": [
+		{ "bzt/modules/aggregator.py": ["1-200"] },
+		{ "bzt/modules/aggregator.py": ["200-249"] }
+	]
+}

@@ -1,0 +1,16 @@
+{
+	"lines_read": [
+		{"src/Bindings/ManualBindings.cpp" : ["1-50"] },
+		{"src/StringUtils.h": [33, 37, 42, 46, 24, 28]},
+		{"src/Generating/PieceGeneratorBFSTree.cpp": [302, 295] }, 
+		{"src/StringUtils.cpp": [672, 68, 644, 71, 648, 78, 81, 82, 55, 58, 59, 671]}, 
+		{"src/DeadlockDetect.h": [56] },
+		{"src/Scoreboard.h": [102] },
+		{"src/Root.h": [208] },
+		{"src/Protocol/MojangAPI.h": [134] },
+		{"src/StringUtils.h": [16, 11, 12, 13]},
+		{"src/Bindings/PluginManager.h": [420]}, 
+		{"src/HTTP/HTTPServerConnection.h": [64]}
+	]
+}
+

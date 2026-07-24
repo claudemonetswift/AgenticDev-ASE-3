@@ -1,0 +1,13 @@
+model_name,trial,rubric items deducted
+Claude Opus 4,1,"3b,4c"
+Claude Opus 4,2,3a
+Claude Opus 4,3,"3b,4c"
+Agentic Claude Opus 4,1,4c
+Agentic Claude Opus 4,2,"3a,4c"
+Agentic Claude Opus 4,3,4c
+Agentic Claude Opus 4,4,4c
+Agentic Claude Opus 4,5,4c
+Agentic Claude Opus 4,6,4c
+Agentic Claude Opus 4,7,4c
+Agentic Claude Opus 4,8,4c
+Agentic Claude Opus 4,9,4c

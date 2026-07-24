@@ -1,0 +1,6 @@
+{
+	"lines_read": [
+		{ "k9mail-library/src/test/java/com/fsck/k9/mail/store/imap/selectedstate/command/UidFetchCommandTest.java": ["1-130"] },
+		{ "k9mail-library/src/main/java/com/fsck/k9/mail/store/imap/selectedstate/command/UidFetchCommand.java": ["1-160"] }
+	]
+}

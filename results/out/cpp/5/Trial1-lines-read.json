@@ -1,0 +1,9 @@
+{
+	"lines_read": [
+		{"Vates/VatesAPI/inc/MantidVatesAPI/SQWLoadingPresenter.h":  ["1-61"] }, 
+		{"Vates/VatesAPI/inc/MantidVatesAPI/MDEWLoadingPresenter.h":  ["1-88"] },
+		{"Vates/VatesAPI/inc/MantidVatesAPI/MDLoadingPresenter.h": ["1-106"]}
+	]
+
+
+}

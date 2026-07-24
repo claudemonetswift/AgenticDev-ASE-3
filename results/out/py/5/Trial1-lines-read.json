@@ -1,0 +1,24 @@
+{
+	"lines_read": [
+		{"src/python/bot/tasks/corpus_pruning_task.py": ["1-50"]},
+		{"src/python/build_management/build_manager.py": [1397]},
+		{"src/python/build_management/build_manager.py": ["1397-1496"]},
+		{"src/python/build_management/build_manager.py": [1387, 1210, 1307, 1229]},
+		{"src/python/build_management/build_manager.py": ["1229-1308"]},
+		{"src/python/build_management/build_manager.py": [836, 709, 997, 589, 685, 877, 760, 957]},
+		{"src/python/build_management/build_manager.py": ["685-734"]},
+		{"src/python/build_management/build_manager.py": [896, 449, 899, 850, 627, 981, 857, 730, 731, 860]},
+		{"src/python/build_management/build_manager.py": ["449-488"]},
+		{"src/python/build_management/build_manager.py": ["627-686"]},
+		{"src/python/build_management/build_manager.py": [416, 417, 418, 641, 642, 643, 644, 391, 654, 639]},
+		{"src/python/bot/tasks/corpus_pruning_task.py": ["593-603"]},
+		{"src/python/build_management/build_manager.py": ["1387-1406"]},
+		{"src/python/build_management/build_manager.py": [986]},
+		{"src/python/build_management/build_manager.py": ["986-1015"]},
+		{"src/python/build_management/build_manager.py": [1402, 1307]},
+		{"src/python/build_management/build_manager.py": ["1307-1386"]},
+		{"src/python/build_management/build_manager.py": [903]},
+		{"src/python/build_management/build_manager.py": ["903-962"]},
+		{"src/python/build_management/build_manager.py": ["957-986"]}
+	]
+}
