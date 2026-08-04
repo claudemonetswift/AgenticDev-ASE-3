@@ -58,8 +58,8 @@ for LANG in ["java", "py", "cpp"]:
 
     for SAMPLE_NUM in range(1,6):
         f_csv = f"{LANG}{SAMPLE_NUM}.csv"
-        f_results = f"csvs/{f_csv}"
-        f_rubrics = f"../artifact/dataset/{LANG}/rubrics/{SAMPLE_NUM}.json"
+        f_results = f"../results/rubric-applications/csvs/{f_csv}"
+        f_rubrics = f"../dataset/{LANG}/rubrics/{SAMPLE_NUM}.json"
         if not os.path.exists(f_results):
             continue
 
@@ -177,8 +177,8 @@ averages.sort(key=lambda x: x[1], reverse=True)
 for k, average in averages:
     print(f"{k:<{max_key_length}} : {average:.2%}") 
 
-with open("accuracies.json","w") as file:
-    json.dump(data,file, indent=4)
+#with open("accuracies.json","w") as file:
+#    json.dump(data,file, indent=4)
 
 
 diff = averages[0][1] - averages[1][1]

@@ -11,7 +11,7 @@ from scipy.stats import spearmanr, mannwhitneyu
 # ============================================================
 
 CONTEXT_CSV = "context_stats.csv"
-CSV_DIR = Path("csvs")
+CSV_DIR = Path("../results/rubric-applications/csvs")
 
 
 # ============================================================

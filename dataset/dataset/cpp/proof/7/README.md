@@ -1,0 +1,6 @@
+Compile using g++ version 16.0.0
+
+Apple clang version 16.0.0 (clang-1600.0.26.6)
+Target: arm64-apple-darwin23.6.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin

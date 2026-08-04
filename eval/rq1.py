@@ -66,14 +66,13 @@ data = {}
 for LANG in ["java", "py", "cpp"]:
     for SAMPLE_NUM in range(1, 6):
         for TRIAL_NUM in range(1, 4):
-            RESULTS_PREFIX = os.path.join("results/out/", LANG, str(SAMPLE_NUM))
+            RESULTS_PREFIX = os.path.join("../results/out/", LANG, str(SAMPLE_NUM))
 
             f_read = os.path.join(RESULTS_PREFIX, f"Trial{TRIAL_NUM}-lines-read.json")
             if not os.path.exists(f_read): continue
 
-            f_given = os.path.join("given-context", f"{LANG}{SAMPLE_NUM}.json")
-            f_relevant = os.path.join("relevant-context", f"{LANG}{SAMPLE_NUM}.json")
-
+            f_given = os.path.join("../dataset/given-context", f"{LANG}{SAMPLE_NUM}.json")
+            f_relevant = os.path.join("../dataset/relevant-context", f"{LANG}{SAMPLE_NUM}.json")
             given = set(load_lines(f_given))
             relevant = set(load_lines(f_relevant))
             total_relevant_lines_needed += len(relevant)
@@ -117,8 +116,8 @@ for LANG in ["java", "py", "cpp"]:
             data[str(LANG)+ str(SAMPLE_NUM) +  " - Trial " + str(TRIAL_NUM)]["Precision"] = precision
 
 
-with open("relevant_lines_stats.json",mode="w") as file:
-    json.dump(data, file, indent=4)
+#with open("relevant_lines_stats.json",mode="w") as file:
+#    json.dump(data, file, indent=4)
 
 print()
 print("Total relevant lines needed: ", total_relevant_lines_needed)

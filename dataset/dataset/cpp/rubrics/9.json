@@ -1,0 +1,81 @@
+[
+    {
+        "desc": "Does the answer state that opsetIt will never be opsets.end()?",
+        "points": 2,
+        "subitems": [
+            {
+                "desc": "1 point should be deducted if it is not stated.",
+                "points": 1,
+                "lie": false
+            },
+            {
+                "desc": "2 points should be deducted if it states opsetIt can be opsets.end().",
+                "points": 2,
+                "lie": true
+            }
+        ]
+    },
+    {
+        "desc": "Does the answer discuss the contents of opsets?",
+        "points": 3,
+        "subitems": [
+            {
+                "desc": "1 point should be deducted if it does not mention that opsets is initialized in the V10Parser constructor.",
+                "points": 1,
+                "lie": false
+            },
+            {
+                "desc": "1 point should be deducted if it does not mention that opsets is initialized with default opsests 1-6, which includes 'opset2'.",
+                "points": 1,
+                "lie": false
+            },
+            {
+                "desc": "1 point should be deducted if it does not mention that the contents of opsets are never modified.",
+                "points": 1,
+                "lie": false
+            }
+        ]
+    },
+    {
+        "desc": "Does the answer discuss the value of opsetIt?",
+        "points": 3,
+        "subitems": [
+            {
+                "desc": "1 point should be deducted if it does not mention that opsetIt is initialized with opsets.find(params.version).",
+                "points": 1,
+                "lie": false
+            },
+            {
+                "desc": "1 point should be deducted if it does not mention that the if-statement checks that opsetIt != opsets.end(), so this is guaranteed within the block.",
+                "points": 1,
+                "lie": false
+            },
+            {
+                "desc": "1 point should be deducted if it does not mention that the value of opsetIt is changed to opsets.find('opset2').",
+                "points": 1,
+                "lie": false
+            }
+        ]
+    },
+    {
+        "desc": "Does the answer explain when createNode is called?",
+        "points": 3,
+        "subitems": [
+            {
+                "desc": "1 point should be deducted if it does not mention that createNode is a private method in the XmlDeserializer class.",
+                "points": 1,
+                "lie": false
+            },
+            {
+                "desc": "1 point should be deducted if it does not mention that XmlDeserializer is a private nested class in V10Parser.",
+                "points": 1,
+                "lie": false
+            },
+            {
+                "desc": "1 point should be deducted if it does not state that createNode will only be called when opsets has been initialized.",
+                "points": 1,
+                "lie": false
+            }
+        ]
+    }
+]       
