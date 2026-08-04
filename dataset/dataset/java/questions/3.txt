@@ -1,1 +1,0 @@
-Should I add a null check for mPrefix?

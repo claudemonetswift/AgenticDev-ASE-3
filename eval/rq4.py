@@ -101,9 +101,8 @@ for LANG in  ["java", "py", "cpp"]:  #["java", "py"]: #, "cpp"]:
 
     for SAMPLE_NUM in range(1,6): #range(1,6): #6):
         f_csv = f"{LANG}{SAMPLE_NUM}.csv"
-        f_results = f"csvs/{f_csv}"
-        f_rubrics = f"../artifact/dataset/{LANG}/rubrics/{SAMPLE_NUM}.json"
-
+        f_results = f"../results/rubric-applications/csvs/{f_csv}"
+        f_rubrics = f"../dataset/{LANG}/rubrics/{SAMPLE_NUM}.json"
         if not os.path.exists(f_results):
             continue
 
