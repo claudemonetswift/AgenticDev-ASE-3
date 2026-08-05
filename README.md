@@ -31,12 +31,15 @@ python eval/rq4.py # Effect on hallucination rate
 <!-- <img width="1000" height="1200" alt="figure 5" src="https://github.com/user-attachments/assets/9d15369a-b61f-4dfb-a266-f5b253577ea8" title="Relevant Lines Read vs Total Relevant Lines (Tool-Using Trials)" />
 
 <img width="1200" height="1800" alt="figure 8" src="https://github.com/user-attachments/assets/366f72b7-a0dc-4ae3-92ad-719168cbebff" title="Performance vs Tool Invocations (Per Trial)"/> -->
+<div align="center">
 
 ### Relevant Lines Read
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/9d15369a-b61f-4dfb-a266-f5b253577ea8" alt="Relevant Lines Read" width="500">
 </p>
+</div>
+<div align="center">
 
 ### Performance vs. Tool Calls
 
@@ -44,4 +47,5 @@ python eval/rq4.py # Effect on hallucination rate
   <img src="https://github.com/user-attachments/assets/366f72b7-a0dc-4ae3-92ad-719168cbebff" alt="Performance vs. Tool Calls" width="500">
 </p>
 
+</div>
 Recorded agentic tool-invocation traces and rubric scoring results are in `results/`.
