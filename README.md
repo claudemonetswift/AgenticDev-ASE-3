@@ -26,14 +26,6 @@ python eval/rq3.py # Cost of agentic context retrieval
 python eval/rq4.py # Effect on hallucination rate
 ```
 
-## Citation
 
-```bibtex
-@inproceedings{anon2026costofcontext,
-  title     = {The Cost of Context: An Evaluation of Claude Code's Agentic Tool Use on Coding Questions},
-  booktitle = {Proceedings of AgenticDev '26},
-  year      = {2026}
-}
-```
 
 Recorded agentic tool-invocation traces and rubric scoring results are in `results/`.
