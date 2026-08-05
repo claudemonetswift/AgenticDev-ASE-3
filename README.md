@@ -26,6 +26,10 @@ python eval/rq3.py # Cost of agentic context retrieval
 python eval/rq4.py # Effect on hallucination rate
 ```
 
+## Evaluation
+
+[figure5.pdf](https://github.com/user-attachments/files/30759628/figure5.pdf)
+
 
 
 Recorded agentic tool-invocation traces and rubric scoring results are in `results/`.
