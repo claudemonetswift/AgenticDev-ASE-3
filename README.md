@@ -28,9 +28,9 @@ python eval/rq4.py # Effect on hallucination rate
 
 ## Evaluation 
 
-<img width="1333" height="1561" alt="figure 5" src="https://github.com/user-attachments/assets/9d15369a-b61f-4dfb-a266-f5b253577ea8" />
+<img width="1000" height="1200" alt="figure 5" src="https://github.com/user-attachments/assets/9d15369a-b61f-4dfb-a266-f5b253577ea8" title="Relevant Lines Read vs Total Relevant Lines (Tool-Using Trials)" />
 
-<img width="1521" height="2128" alt="figure 8" src="https://github.com/user-attachments/assets/366f72b7-a0dc-4ae3-92ad-719168cbebff" />
+<img width="1200" height="1800" alt="figure 8" src="https://github.com/user-attachments/assets/366f72b7-a0dc-4ae3-92ad-719168cbebff" title="Performance vs Tool Invocations (Per Trial)"/>
 
 
 
