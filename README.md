@@ -1,6 +1,6 @@
 # The Cost of Context: An Evaluation of Claude Code's Agentic Tool Use on Coding Questions
 
-Code and evaluation scripts for our study measuring how effectively Claude Code retrieves relevant context — and at what cost — when answering contextualized coding questions from **RubberDuckBench**.
+Code and evaluation scripts for our study measuring how effectively Claude Code retrieves relevant context and at what cost when answering contextualized coding questions from **RubberDuckBench**.
 
 ## Summary
 
